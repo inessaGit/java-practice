@@ -13,6 +13,7 @@ public class ArrayRotate {
     //arr[i] = arr[i+1] shift elements to the left
     public static int[] arrayRotateLeft(int []arr,int numberOfRotations){
         int length = arr.length;
+
         System.out.println("original array "+ Arrays.toString(arr));
         for (int i=0; i<numberOfRotations;i++){
           int temp = arr[0];
